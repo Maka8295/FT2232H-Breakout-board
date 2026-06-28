@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "voltage regulator for flasher") (type "KiCad") (uri "${KIPRJMOD}/RT9069-33GB") (options "") (descr ""))
+)
