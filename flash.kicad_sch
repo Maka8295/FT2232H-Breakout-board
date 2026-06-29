@@ -2099,6 +2099,289 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:Crystal_GND24"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "Y"
+				(at 3.175 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Crystal_GND24"
+				(at 3.175 3.175 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Four pin crystal, GND on pins 2 and 4"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property private "KLC_S3.3" "The rectangle is not a symbol body but a graphical element"
+				(at 0 -12.7 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property private "KLC_S4.1" "Some pins are on 50mil grid to make the symbol small"
+				(at 0 -15.24 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "quartz ceramic resonator oscillator"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Crystal*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Crystal_GND24_0_1"
+				(polyline
+					(pts
+						(xy -2.54 2.286) (xy -2.54 3.556) (xy 2.54 3.556) (xy 2.54 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -2.032 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -2.286) (xy -2.54 -3.556) (xy 2.54 -3.556) (xy 2.54 -2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -1.27) (xy -2.032 1.27)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.143 2.54)
+					(end 1.143 -2.54)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -3.81) (xy 0 -3.556)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.032 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.032 -1.27) (xy 2.032 1.27)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Crystal_GND24_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 1.27)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 1.27)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 1.27)
+					(hide yes)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:LED"
 			(pin_numbers
 				(hide yes)
@@ -5330,194 +5613,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Oscillator:XO32"
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "Y"
-				(at -5.08 6.35 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "XO32"
-				(at 1.27 -6.35 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Oscillator:Oscillator_SMD_EuroQuartz_XO32-4Pin_3.2x2.5mm"
-				(at 17.78 -8.89 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "http://cdn-reichelt.de/documents/datenblatt/B400/XO32.pdf"
-				(at -2.54 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "HCMOS Clock Oscillator"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "Crystal Clock Oscillator"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Oscillator*SMD*EuroQuartz*XO32*3.2x2.5mm*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "XO32_0_1"
-				(rectangle
-					(start -5.08 5.08)
-					(end 5.08 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -0.762) (xy -1.016 -0.762) (xy -1.016 0.762) (xy -0.508 0.762) (xy -0.508 -0.762) (xy 0 -0.762)
-						(xy 0 0.762) (xy 0.508 0.762) (xy 0.508 -0.762) (xy 0.762 -0.762)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "XO32_1_1"
-				(pin input line
-					(at -7.62 0 0)
-					(length 2.54)
-					(name "EN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -7.62 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "OUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 7.62 270)
-					(length 2.54)
-					(name "V+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Parts:CAS-D20TA"
 			(pin_names
 				(offset 1.016)
@@ -8661,8 +8756,8 @@
 		(uuid "d5064d30-cc38-477a-8fc3-c1866e5554eb")
 	)
 	(rectangle
-		(start 77.47 121.92)
-		(end 138.43 166.37)
+		(start 93.98 120.65)
+		(end 154.94 165.1)
 		(stroke
 			(width 0)
 			(type default)
@@ -8782,7 +8877,7 @@
 	)
 	(text "Program over USB using FT PROG"
 		(exclude_from_sim no)
-		(at 96.774 163.576 0)
+		(at 113.284 162.306 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8814,7 +8909,7 @@
 	)
 	(text "EEPROM"
 		(exclude_from_sim no)
-		(at 84.836 125.222 0)
+		(at 101.346 123.952 0)
 		(effects
 			(font
 				(face "uzura_font")
@@ -8841,19 +8936,13 @@
 		(uuid "05c8e899-a7a6-404e-9f27-035bb3413ff5")
 	)
 	(junction
-		(at 52.07 135.89)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "08f699d4-722d-43cc-bf4f-1768d8d13f46")
-	)
-	(junction
 		(at 101.6 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "091805b8-9e13-4a94-acc4-bfa62fe470aa")
 	)
 	(junction
-		(at 95.25 130.81)
+		(at 111.76 129.54)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1236828b-820e-4eaa-87fd-66816010df49")
@@ -8919,7 +9008,7 @@
 		(uuid "41836b54-8210-4375-92aa-216d14c37d12")
 	)
 	(junction
-		(at 95.25 154.94)
+		(at 111.76 153.67)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "46cb2794-ee44-4b4d-9b01-318af58ae12d")
@@ -8967,12 +9056,6 @@
 		(uuid "6fdc8afb-7814-41b1-a6e3-629e732b3d55")
 	)
 	(junction
-		(at 44.45 135.89)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7291fddb-1aab-479b-af98-c204afb8b00b")
-	)
-	(junction
 		(at 256.54 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9009,7 +9092,7 @@
 		(uuid "8c166f79-4a6e-4ad9-9d6b-8fc49b0dea5f")
 	)
 	(junction
-		(at 123.19 146.05)
+		(at 139.7 144.78)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9161608f-eb27-4914-ad61-b64f1c4cfba4")
@@ -9049,12 +9132,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b5f0a5f1-fcc4-49eb-bbe3-679925145807")
-	)
-	(junction
-		(at 46.99 151.13)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bad42c0d-4c29-4b8c-9ed1-558e45b73048")
 	)
 	(junction
 		(at 347.98 166.37)
@@ -9123,10 +9200,16 @@
 		(uuid "d6ddcdf7-a758-457a-baa9-af0e28ee6768")
 	)
 	(junction
-		(at 115.57 130.81)
+		(at 132.08 129.54)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d715ec15-9c5a-496c-8c8d-00399b05adfc")
+	)
+	(junction
+		(at 48.26 147.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d8274e48-4200-4ef5-ac4a-340019b6fbd3")
 	)
 	(junction
 		(at 204.47 104.14)
@@ -9189,14 +9272,10 @@
 		(uuid "fc1683d6-f9a0-4613-9f47-d554e725b57b")
 	)
 	(junction
-		(at 105.41 130.81)
+		(at 121.92 129.54)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fdb0f345-4035-42aa-b6f8-78fa67a7a55d")
-	)
-	(no_connect
-		(at 320.04 151.13)
-		(uuid "035072bb-c62e-4b0d-844f-323e104fa993")
 	)
 	(no_connect
 		(at 203.2 54.61)
@@ -9273,6 +9352,16 @@
 			(type default)
 		)
 		(uuid "0a19c2ad-f860-4598-9fd7-66675d396e7f")
+	)
+	(wire
+		(pts
+			(xy 39.37 147.32) (xy 48.26 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d5bf326-d787-4cd5-acbe-1264de7f0c3c")
 	)
 	(wire
 		(pts
@@ -9366,7 +9455,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 130.81) (xy 95.25 130.81)
+			(xy 104.14 129.54) (xy 111.76 129.54)
 		)
 		(stroke
 			(width 0)
@@ -9516,7 +9605,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 140.97) (xy 95.25 138.43)
+			(xy 111.76 139.7) (xy 111.76 137.16)
 		)
 		(stroke
 			(width 0)
@@ -9606,7 +9695,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 154.94) (xy 95.25 154.94)
+			(xy 121.92 153.67) (xy 111.76 153.67)
 		)
 		(stroke
 			(width 0)
@@ -9696,6 +9785,16 @@
 	)
 	(wire
 		(pts
+			(xy 52.07 140.97) (xy 57.15 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44430825-6533-471e-8320-2905e30d038f")
+	)
+	(wire
+		(pts
 			(xy 340.36 166.37) (xy 342.9 166.37)
 		)
 		(stroke
@@ -9723,16 +9822,6 @@
 			(type default)
 		)
 		(uuid "4e27e52f-97da-41a2-9752-0b23f004fcda")
-	)
-	(wire
-		(pts
-			(xy 40.64 135.89) (xy 40.64 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4e3ee264-1556-4cc6-acc0-0541cb3d6886")
 	)
 	(wire
 		(pts
@@ -9776,16 +9865,6 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 147.32) (xy 40.64 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "54a8a346-624e-4eeb-a060-daec6ac13411")
-	)
-	(wire
-		(pts
 			(xy 185.42 54.61) (xy 185.42 60.96)
 		)
 		(stroke
@@ -9803,16 +9882,6 @@
 			(type default)
 		)
 		(uuid "578f3899-ac51-4a6e-96b7-65bf07d17c4b")
-	)
-	(wire
-		(pts
-			(xy 44.45 135.89) (xy 44.45 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "582b60f5-c91d-459e-ac64-5eefeb8f9a00")
 	)
 	(wire
 		(pts
@@ -9836,7 +9905,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 153.67) (xy 87.63 154.94)
+			(xy 104.14 152.4) (xy 104.14 153.67)
 		)
 		(stroke
 			(width 0)
@@ -9926,7 +9995,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 130.81) (xy 105.41 135.89)
+			(xy 121.92 129.54) (xy 121.92 134.62)
 		)
 		(stroke
 			(width 0)
@@ -10016,7 +10085,17 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 143.51) (xy 130.81 143.51)
+			(xy 39.37 140.97) (xy 44.45 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79779a1b-baed-40b9-bbb9-33036cec81ce")
+	)
+	(wire
+		(pts
+			(xy 132.08 142.24) (xy 147.32 142.24)
 		)
 		(stroke
 			(width 0)
@@ -10033,6 +10112,16 @@
 			(type default)
 		)
 		(uuid "7aa95775-4a51-4c7b-a5a7-8bfced1b531b")
+	)
+	(wire
+		(pts
+			(xy 57.15 140.97) (xy 57.15 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b472640-c583-4883-a466-210cda73daf3")
 	)
 	(wire
 		(pts
@@ -10106,16 +10195,6 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 151.13) (xy 52.07 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "849c8387-9804-4ac7-bd92-3bc0f9205454")
-	)
-	(wire
-		(pts
 			(xy 101.6 53.34) (xy 100.33 53.34)
 		)
 		(stroke
@@ -10186,16 +10265,6 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 135.89) (xy 44.45 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9123adbb-aa9c-408e-92b7-acfd0b2d51c5")
-	)
-	(wire
-		(pts
 			(xy 347.98 54.61) (xy 350.52 54.61)
 		)
 		(stroke
@@ -10236,6 +10305,16 @@
 	)
 	(wire
 		(pts
+			(xy 48.26 147.32) (xy 57.15 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98f4ae0b-2510-4851-92a6-daded6391015")
+	)
+	(wire
+		(pts
 			(xy 66.04 101.6) (xy 81.28 101.6)
 		)
 		(stroke
@@ -10256,13 +10335,23 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 146.05) (xy 123.19 146.05)
+			(xy 132.08 144.78) (xy 139.7 144.78)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "9e3d43a3-56da-4c53-9bfd-ec83e47d2968")
+	)
+	(wire
+		(pts
+			(xy 39.37 140.97) (xy 39.37 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f4cf347-27a3-40cc-918d-f2683cfd1b5b")
 	)
 	(wire
 		(pts
@@ -10366,7 +10455,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 130.81) (xy 115.57 130.81)
+			(xy 121.92 129.54) (xy 132.08 129.54)
 		)
 		(stroke
 			(width 0)
@@ -10403,16 +10492,6 @@
 			(type default)
 		)
 		(uuid "b1b5a9a4-096e-4811-9d54-a2ef6534c539")
-	)
-	(wire
-		(pts
-			(xy 44.45 135.89) (xy 40.64 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b1cadb0f-266e-4625-9d6b-8aae61a87cae")
 	)
 	(wire
 		(pts
@@ -10456,7 +10535,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 130.81) (xy 123.19 130.81)
+			(xy 132.08 129.54) (xy 139.7 129.54)
 		)
 		(stroke
 			(width 0)
@@ -10556,7 +10635,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 130.81) (xy 87.63 148.59)
+			(xy 104.14 129.54) (xy 104.14 147.32)
 		)
 		(stroke
 			(width 0)
@@ -10636,7 +10715,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 138.43) (xy 123.19 146.05)
+			(xy 139.7 137.16) (xy 139.7 144.78)
 		)
 		(stroke
 			(width 0)
@@ -10676,7 +10755,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 146.05) (xy 130.81 143.51)
+			(xy 147.32 144.78) (xy 147.32 142.24)
 		)
 		(stroke
 			(width 0)
@@ -10703,6 +10782,16 @@
 			(type default)
 		)
 		(uuid "d5eba234-2443-4814-9b41-91253dfc9c7d")
+	)
+	(wire
+		(pts
+			(xy 48.26 147.32) (xy 48.26 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da112824-3afd-468a-8613-71f4ebdce525")
 	)
 	(wire
 		(pts
@@ -10756,16 +10845,6 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 151.13) (xy 46.99 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e1e20000-eab1-4428-9054-9767efddf6de")
-	)
-	(wire
-		(pts
 			(xy 201.93 62.23) (xy 207.01 62.23)
 		)
 		(stroke
@@ -10796,7 +10875,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 151.13) (xy 105.41 154.94)
+			(xy 121.92 149.86) (xy 121.92 153.67)
 		)
 		(stroke
 			(width 0)
@@ -10836,7 +10915,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 138.43) (xy 115.57 140.97)
+			(xy 132.08 137.16) (xy 132.08 139.7)
 		)
 		(stroke
 			(width 0)
@@ -10866,7 +10945,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 130.81) (xy 105.41 130.81)
+			(xy 111.76 129.54) (xy 121.92 129.54)
 		)
 		(stroke
 			(width 0)
@@ -10896,7 +10975,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 154.94) (xy 95.25 154.94)
+			(xy 104.14 153.67) (xy 111.76 153.67)
 		)
 		(stroke
 			(width 0)
@@ -10923,6 +11002,16 @@
 			(type default)
 		)
 		(uuid "f8e3d3eb-9a6f-466f-8c2c-9585c59a6a80")
+	)
+	(wire
+		(pts
+			(xy 48.26 147.32) (xy 48.26 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9724f1a-93bc-444c-8d7b-d904dce70021")
 	)
 	(wire
 		(pts
@@ -11672,30 +11761,6 @@
 			)
 		)
 	)
-	(global_label "XCSI"
-		(shape input)
-		(at 59.69 143.51 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "2596761f-a69b-44a4-a288-580798c129dc")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 66.969 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "AC4"
 		(shape input)
 		(at 381 95.25 0)
@@ -12080,6 +12145,30 @@
 			)
 		)
 	)
+	(global_label "XCSO"
+		(shape input)
+		(at 39.37 140.97 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "39483428-c31d-4428-b073-bc135d0b52a9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 31.3653 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "LS1O1"
 		(shape output)
 		(at 381 193.04 0)
@@ -12418,7 +12507,7 @@
 	)
 	(global_label "DI"
 		(shape input)
-		(at 130.81 143.51 0)
+		(at 147.32 142.24 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12428,7 +12517,7 @@
 		)
 		(uuid "55a7faf0-412c-44c8-9927-7530cdbd994c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 135.67 143.51 0)
+			(at 152.18 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13688,6 +13777,30 @@
 			)
 		)
 	)
+	(global_label "XCSO"
+		(shape input)
+		(at 320.04 151.13 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b3f5aed0-d75f-46c8-9a3d-0fb3b78a32e4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 312.0353 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "BC2"
 		(shape input)
 		(at 381 135.89 0)
@@ -13834,7 +13947,7 @@
 	)
 	(global_label "CLK"
 		(shape input)
-		(at 115.57 140.97 0)
+		(at 132.08 139.7 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13844,7 +13957,7 @@
 		)
 		(uuid "bbdbee4e-b120-4a74-8fd7-747c8a8b9c4e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 122.1233 140.97 0)
+			(at 138.6333 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14482,7 +14595,7 @@
 	)
 	(global_label "CS"
 		(shape input)
-		(at 95.25 140.97 180)
+		(at 111.76 139.7 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -14492,7 +14605,7 @@
 		)
 		(uuid "db2e4125-aecc-4dc1-8ae5-ba165fdd509b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 89.7853 140.97 0)
+			(at 106.2953 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14517,6 +14630,30 @@
 		(uuid "dc10aa81-dc1d-4c7c-af67-3500d811be11")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 374.0066 218.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "XCSI"
+		(shape input)
+		(at 57.15 140.97 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "dcdd2870-e43f-411d-827b-bf193aeaba37")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 64.429 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15067,7 +15204,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0051d229-dd46-492c-a6fe-74434dc4568d")
-		(property "Reference" "C30"
+		(property "Reference" "C33"
 			(at 69.596 243.84 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15131,89 +15268,7 @@
 		(instances
 			(project "flash"
 				(path "/b8bc8b60-7428-4d06-95a4-be2e4edd5044"
-					(reference "C30")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 40.64 144.78 0)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "0161c1ce-9a62-4cd7-afd2-c27d7840ac94")
-		(property "Reference" "C14"
-			(at 37.338 145.542 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "0.01uF"
-			(at 37.338 148.082 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 40.64 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 40.64 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 40.64 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "1be82034-d19a-48ea-9a30-40cd27b98f49")
-		)
-		(pin "1"
-			(uuid "1eb789cc-b442-45b4-9174-5ac201097316")
-		)
-		(instances
-			(project "flash"
-				(path "/b8bc8b60-7428-4d06-95a4-be2e4edd5044"
-					(reference "C14")
+					(reference "C33")
 					(unit 1)
 				)
 			)
@@ -15231,7 +15286,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "05791664-0a6d-4044-bc29-598d793e6a87")
-		(property "Reference" "#PWR076"
+		(property "Reference" "#PWR074"
 			(at 118.11 247.65 0)
 			(hide yes)
 			(show_name no)
@@ -15291,7 +15346,7 @@
 		(instances
 			(project "flash"
 				(path "/b8bc8b60-7428-4d06-95a4-be2e4edd5044"
-					(reference "#PWR076")
+					(reference "#PWR074")
 					(unit 1)
 				)
 			)
@@ -15299,7 +15354,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 87.63 151.13 180)
+		(at 104.14 149.86 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15308,8 +15363,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0b26e3e7-8388-46c4-af9e-59b708d9f71e")
-		(property "Reference" "C15"
-			(at 81.534 150.368 0)
+		(property "Reference" "C16"
+			(at 98.044 149.098 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15320,7 +15375,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 81.534 152.908 0)
+			(at 98.044 151.638 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15331,7 +15386,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 87.63 151.13 0)
+			(at 104.14 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15342,7 +15397,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 87.63 151.13 0)
+			(at 104.14 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15353,7 +15408,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 87.63 151.13 0)
+			(at 104.14 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15372,7 +15427,7 @@
 		(instances
 			(project "flash"
 				(path "/b8bc8b60-7428-4d06-95a4-be2e4edd5044"
-					(reference "C15")
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -15389,7 +15444,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0c6f90bc-09ab-417b-81e1-b4f2bceff8f4")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR035"
 			(at 219.71 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -15450,7 +15505,7 @@
 		(instances
 			(project "flash"
 				(path "/b8bc8b60-7428-4d06-95a4-be2e4edd5044"
-					(reference "#PWR033")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -15467,7 +15522,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0d7ec768-7b74-47c6-9531-1ea907211ad0")
-		(property "Reference" "C28"
+		(property "Reference" "C30"
 			(at 40.386 238.76 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15531,7 +15586,7 @@
 		(instances
 			(project "flash"
 				(path "/b8bc8b60-7428-4d06-95a4-be2e4edd5044"
-					(reference "C28")
+					(reference "C30")
 					(unit 1)
 				)
 			)
@@ -15549,7 +15604,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0f16da6e-696e-4fce-a515-0c3a7d24ca19")
-		(property "Reference" "R12"
+		(property "Reference" "R13"
 			(at 192.532 244.856 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15611,7 +15666,7 @@
 		(instances
 			(project "flash"
 				(path "/b8bc8b60-7428-4d06-95a4-be2e4edd5044"
-					(reference "R12")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -15696,6 +15751,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 57.15 144.78 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "16c0a060-df7e-4ccf-a443-e489fd5e3b42")
+		(property "Reference" "C15"
+			(at 59.436 146.812 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10pF"
+			(at 59.436 143.764 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 57.15 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 57.15 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 57.15 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "cfdf6680-88f4-4ac7-9eca-9c06f7671f9b")
+		)
+		(pin "1"
+			(uuid "f41de7d3-4744-48e9-ad0e-f61f1f0024b1")
+		)
+		(instances
+			(project "flash"
+				(path "/b8bc8b60-7428-4d06-95a4-be2e4edd5044"
+					(reference "C15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VBUS")
 		(at 196.85 241.3 0)
 		(unit 1)
@@ -15706,7 +15843,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "18550842-9b1f-4c85-9d92-61f88b2170c8")
-		(property "Reference" "#PWR071"
+		(property "Reference" "#PWR077"
 			(at 196.85 245.11 0)
 			(hide yes)
 			(show_name no)
@@ -15766,7 +15903,7 @@
 		(instances
 			(project "flash"
 				(path "/b8bc8b60-7428-4d06-95a4-be2e4edd5044"
-					(reference "#PWR071")
+					(reference "#PWR077")
 					(unit 1)
 				)
 			)
@@ -15905,7 +16042,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "19f56776-79d1-4ee4-8415-96a276267ea5")
-		(property "Reference" "#PWR077"
+		(property "Reference" "#PWR073"
 			(at 77.47 245.11 0)
 			(hide yes)
 			(show_name no)
@@ -15965,7 +16102,7 @@
 		(instances
 			(project "flash"
 				(path "/b8bc8b60-7428-4d06-95a4-be2e4edd5044"
-					(reference "#PWR077")
+					(reference "#PWR073")
 					(unit 1)
 				)
 			)
@@ -16208,7 +16345,7 @@
 	)
 	(symbol
 		(lib_id "Memory_EEPROM:93LCxxBxxOT")
-		(at 105.41 143.51 0)
+		(at 121.92 142.24 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16218,7 +16355,7 @@
 		(dnp no)
 		(uuid "217853e1-0101-425b-ace3-575aeb294192")
 		(property "Reference" "U8"
-			(at 98.552 150.368 0)
+			(at 115.062 149.098 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16229,7 +16366,7 @@
 			)
 		)
 		(property "Value" "93LCxxBxxOT"
-			(at 98.552 152.908 0)
+			(at 115.062 151.638 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16240,7 +16377,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 105.41 143.51 0)
+			(at 121.92 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16251,7 +16388,7 @@
 			)
 		)
 		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/20001749K.pdf"
-			(at 105.41 143.51 0)
+			(at 121.92 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16262,7 +16399,7 @@
 			)
 		)
 		(property "Description" "Serial EEPROM, 93 Series, 2.5V, SOT-23-6"
-			(at 105.41 143.51 0)
+			(at 121.92 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16310,7 +16447,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "21ce2ffe-7e6d-4331-b89a-60f142921a54")
-		(property "Reference" "C16"
+		(property "Reference" "C17"
 			(at 86.106 194.31 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16374,7 +16511,7 @@
 		(instances
 			(project "flash"
 				(path "/b8bc8b60-7428-4d06-95a4-be2e4edd5044"
-					(reference "C16")
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -16474,7 +16611,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "28d4e306-2c77-43e3-b09b-4008fe84a593")
-		(property "Reference" "#PWR080"
+		(property "Reference" "#PWR079"
 			(at 267.97 254 0)
 			(hide yes)
 			(show_name no)
@@ -16534,7 +16671,7 @@
 		(instances
 			(project "flash"
 				(path "/b8bc8b60-7428-4d06-95a4-be2e4edd5044"
-					(reference "#PWR080")
+					(reference "#PWR079")
 					(unit 1)
 				)
 			)
@@ -16552,7 +16689,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2b2163bf-9c16-49dc-9bc4-89f787356fc7")
-		(property "Reference" "C27"
+		(property "Reference" "C29"
 			(at 133.35 231.394 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16616,7 +16753,7 @@
 		(instances
 			(project "flash"
 				(path "/b8bc8b60-7428-4d06-95a4-be2e4edd5044"
-					(reference "C27")
+					(reference "C29")
 					(unit 1)
 				)
 			)
@@ -16633,7 +16770,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2c037bcc-0624-488c-831e-0742960bc982")
-		(property "Reference" "SW5"
+		(property "Reference" "SW6"
 			(at 216.408 241.3 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16707,7 +16844,7 @@
 		(instances
 			(project "flash"
 				(path "/b8bc8b60-7428-4d06-95a4-be2e4edd5044"
-					(reference "SW5")
+					(reference "SW6")
 					(unit 1)
 				)
 			)
@@ -16725,7 +16862,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2fabd00c-d0ba-49da-beb5-0ce90af04d0c")
-		(property "Reference" "C22"
+		(property "Reference" "C23"
 			(at 63.5 204.724 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16789,7 +16926,7 @@
 		(instances
 			(project "flash"
 				(path "/b8bc8b60-7428-4d06-95a4-be2e4edd5044"
-					(reference "C22")
+					(reference "C23")
 					(unit 1)
 				)
 			)
@@ -16896,7 +17033,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "32641042-7dbf-415f-9479-1148d4b61cfc")
-		(property "Reference" "#PWR079"
+		(property "Reference" "#PWR081"
 			(at 77.47 257.81 0)
 			(hide yes)
 			(show_name no)
@@ -16956,7 +17093,7 @@
 		(instances
 			(project "flash"
 				(path "/b8bc8b60-7428-4d06-95a4-be2e4edd5044"
-					(reference "#PWR079")
+					(reference "#PWR081")
 					(unit 1)
 				)
 			)
@@ -16974,7 +17111,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "33194a5d-9be5-4159-8e6a-4fa77742b31e")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR045"
 			(at 320.04 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -17034,7 +17171,7 @@
 		(instances
 			(project "flash"
 				(path "/b8bc8b60-7428-4d06-95a4-be2e4edd5044"
-					(reference "#PWR046")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -17051,7 +17188,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "33c85ef6-86ef-4abe-9dfd-480a208c76f0")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR050"
 			(at 193.04 190.5 0)
 			(hide yes)
 			(show_name no)
@@ -17111,7 +17248,7 @@
 		(instances
 			(project "flash"
 				(path "/b8bc8b60-7428-4d06-95a4-be2e4edd5044"
-					(reference "#PWR048")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -17128,7 +17265,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "34e39039-1b89-43d1-93ea-948e66a7bf45")
-		(property "Reference" "C32"
+		(property "Reference" "C25"
 			(at 86.106 222.25 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17192,7 +17329,7 @@
 		(instances
 			(project "flash"
 				(path "/b8bc8b60-7428-4d06-95a4-be2e4edd5044"
-					(reference "C32")
+					(reference "C25")
 					(unit 1)
 				)
 			)
@@ -17210,7 +17347,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "38688c4b-343e-4650-b740-a492672e1883")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR043"
 			(at 201.93 166.37 0)
 			(hide yes)
 			(show_name no)
@@ -17270,7 +17407,7 @@
 		(instances
 			(project "flash"
 				(path "/b8bc8b60-7428-4d06-95a4-be2e4edd5044"
-					(reference "#PWR042")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -17287,7 +17424,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3967dae8-da0e-48a1-9eaf-bc98e28e1a3b")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR08"
 			(at 137.16 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -17347,7 +17484,7 @@
 		(instances
 			(project "flash"
 				(path "/b8bc8b60-7428-4d06-95a4-be2e4edd5044"
-					(reference "#PWR04")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -17364,7 +17501,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3a7ee60b-489b-42b7-9419-f38e41aab852")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR09"
 			(at 163.83 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -17424,7 +17561,7 @@
 		(instances
 			(project "flash"
 				(path "/b8bc8b60-7428-4d06-95a4-be2e4edd5044"
-					(reference "#PWR05")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -17519,7 +17656,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3e3a116c-7b57-43c5-9a80-11f9fc2082a2")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR047"
 			(at 203.2 187.96 0)
 			(hide yes)
 			(show_name no)
@@ -17580,7 +17717,7 @@
 		(instances
 			(project "flash"
 				(path "/b8bc8b60-7428-4d06-95a4-be2e4edd5044"
-					(reference "#PWR049")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -17597,7 +17734,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3f0bb1b1-4b59-46b9-afef-b3d312bb9cf0")
-		(property "Reference" "C24"
+		(property "Reference" "C26"
 			(at 103.124 231.648 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17661,7 +17798,85 @@
 		(instances
 			(project "flash"
 				(path "/b8bc8b60-7428-4d06-95a4-be2e4edd5044"
-					(reference "C24")
+					(reference "C26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 48.26 149.86 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "40577c29-6541-42d3-afa3-78ee3e9c2bc6")
+		(property "Reference" "#PWR041"
+			(at 48.26 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 48.26 154.94 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 48.26 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 48.26 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 48.26 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bac50d82-e060-4022-ab24-6d5217fd75f7")
+		)
+		(instances
+			(project "flash"
+				(path "/b8bc8b60-7428-4d06-95a4-be2e4edd5044"
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -17678,7 +17893,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "41c2c2ea-cfce-4d18-a88d-7a15e89b97d7")
-		(property "Reference" "SW4"
+		(property "Reference" "SW5"
 			(at 166.624 241.3 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17752,7 +17967,7 @@
 		(instances
 			(project "flash"
 				(path "/b8bc8b60-7428-4d06-95a4-be2e4edd5044"
-					(reference "SW4")
+					(reference "SW5")
 					(unit 1)
 				)
 			)
@@ -17769,7 +17984,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "462116d4-57f6-4d99-b869-03733c5bbd6c")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR010"
 			(at 222.25 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -17829,7 +18044,7 @@
 		(instances
 			(project "flash"
 				(path "/b8bc8b60-7428-4d06-95a4-be2e4edd5044"
-					(reference "#PWR06")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -18094,7 +18309,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4ac97fa7-ea0f-4f43-91b4-a343d3dc0be5")
-		(property "Reference" "C21"
+		(property "Reference" "C22"
 			(at 41.656 204.47 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18158,7 +18373,7 @@
 		(instances
 			(project "flash"
 				(path "/b8bc8b60-7428-4d06-95a4-be2e4edd5044"
-					(reference "C21")
+					(reference "C22")
 					(unit 1)
 				)
 			)
@@ -18326,7 +18541,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 95.25 134.62 0)
+		(at 111.76 133.35 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -18337,7 +18552,7 @@
 		(dnp no)
 		(uuid "538c0b11-f0b9-4afd-95f2-9a59a8326550")
 		(property "Reference" "R6"
-			(at 91.44 134.112 90)
+			(at 107.95 132.842 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18347,7 +18562,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 93.218 134.366 90)
+			(at 109.728 133.096 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18357,7 +18572,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 97.028 134.62 90)
+			(at 113.538 133.35 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18368,7 +18583,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 95.25 134.62 0)
+			(at 111.76 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18379,7 +18594,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 95.25 134.62 0)
+			(at 111.76 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18415,7 +18630,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "574699f3-ee51-4cd5-90ec-9ccfd91e4fdf")
-		(property "Reference" "#PWR069"
+		(property "Reference" "#PWR075"
 			(at 180.34 245.11 0)
 			(hide yes)
 			(show_name no)
@@ -18475,7 +18690,7 @@
 		(instances
 			(project "flash"
 				(path "/b8bc8b60-7428-4d06-95a4-be2e4edd5044"
-					(reference "#PWR069")
+					(reference "#PWR075")
 					(unit 1)
 				)
 			)
@@ -18492,7 +18707,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "58329fd9-899e-416f-912e-7a452086bd64")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR033"
 			(at 199.39 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -18552,7 +18767,7 @@
 		(instances
 			(project "flash"
 				(path "/b8bc8b60-7428-4d06-95a4-be2e4edd5044"
-					(reference "#PWR031")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -18569,7 +18784,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "59cdd64f-d4b7-4aab-8e1c-b92e22a2ada1")
-		(property "Reference" "#PWR075"
+		(property "Reference" "#PWR070"
 			(at 255.27 234.95 0)
 			(hide yes)
 			(show_name no)
@@ -18630,85 +18845,7 @@
 		(instances
 			(project "flash"
 				(path "/b8bc8b60-7428-4d06-95a4-be2e4edd5044"
-					(reference "#PWR075")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 46.99 151.13 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5b25f68e-4a68-4dab-a552-8a170be30f9d")
-		(property "Reference" "#PWR044"
-			(at 46.99 157.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 46.99 156.21 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 46.99 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 46.99 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 46.99 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "47efca5f-75c9-4238-aa67-75083da25058")
-		)
-		(instances
-			(project "flash"
-				(path "/b8bc8b60-7428-4d06-95a4-be2e4edd5044"
-					(reference "#PWR044")
+					(reference "#PWR070")
 					(unit 1)
 				)
 			)
@@ -18726,7 +18863,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5d2b4507-873a-4123-8e1c-2e037c7c4de7")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR031"
 			(at 66.04 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -18786,7 +18923,7 @@
 		(instances
 			(project "flash"
 				(path "/b8bc8b60-7428-4d06-95a4-be2e4edd5044"
-					(reference "#PWR039")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -18886,7 +19023,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5eaaf69d-3a54-4054-b738-004e8b55c231")
-		(property "Reference" "#PWR057"
+		(property "Reference" "#PWR051"
 			(at 93.98 195.58 0)
 			(hide yes)
 			(show_name no)
@@ -18946,7 +19083,7 @@
 		(instances
 			(project "flash"
 				(path "/b8bc8b60-7428-4d06-95a4-be2e4edd5044"
-					(reference "#PWR057")
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -19040,7 +19177,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "606d03f8-4aec-4591-9853-b8b03c65a9d0")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR038"
 			(at 256.54 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -19100,7 +19237,7 @@
 		(instances
 			(project "flash"
 				(path "/b8bc8b60-7428-4d06-95a4-be2e4edd5044"
-					(reference "#PWR036")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -19118,7 +19255,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6263d2fe-148d-487d-abeb-6b2338aec1e8")
-		(property "Reference" "C12"
+		(property "Reference" "C13"
 			(at 264.922 101.346 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19182,7 +19319,7 @@
 		(instances
 			(project "flash"
 				(path "/b8bc8b60-7428-4d06-95a4-be2e4edd5044"
-					(reference "C12")
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -19200,7 +19337,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "65284e5b-2c5a-4f11-9102-7fc989991863")
-		(property "Reference" "C31"
+		(property "Reference" "C32"
 			(at 261.62 243.84 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19264,7 +19401,7 @@
 		(instances
 			(project "flash"
 				(path "/b8bc8b60-7428-4d06-95a4-be2e4edd5044"
-					(reference "C31")
+					(reference "C32")
 					(unit 1)
 				)
 			)
@@ -19282,7 +19419,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "65eda104-fac8-496d-a1ef-cba32e3a7fe7")
-		(property "Reference" "#PWR064"
+		(property "Reference" "#PWR059"
 			(at 111.76 210.82 0)
 			(hide yes)
 			(show_name no)
@@ -19342,7 +19479,7 @@
 		(instances
 			(project "flash"
 				(path "/b8bc8b60-7428-4d06-95a4-be2e4edd5044"
-					(reference "#PWR064")
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -19453,7 +19590,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6a09237e-ce0a-44ef-8c6f-4c5b140fac2b")
-		(property "Reference" "#PWR061"
+		(property "Reference" "#PWR056"
 			(at 49.53 205.74 0)
 			(hide yes)
 			(show_name no)
@@ -19513,7 +19650,7 @@
 		(instances
 			(project "flash"
 				(path "/b8bc8b60-7428-4d06-95a4-be2e4edd5044"
-					(reference "#PWR061")
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -19853,7 +19990,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6c7f9c5f-3596-417a-822e-9986e219eaf9")
-		(property "Reference" "#PWR066"
+		(property "Reference" "#PWR065"
 			(at 77.47 220.98 0)
 			(hide yes)
 			(show_name no)
@@ -19913,7 +20050,7 @@
 		(instances
 			(project "flash"
 				(path "/b8bc8b60-7428-4d06-95a4-be2e4edd5044"
-					(reference "#PWR066")
+					(reference "#PWR065")
 					(unit 1)
 				)
 			)
@@ -19930,7 +20067,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6dc3bd9d-ec6c-4a81-93a2-87558c91bfa5")
-		(property "Reference" "C23"
+		(property "Reference" "C24"
 			(at 69.596 219.71 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19994,7 +20131,7 @@
 		(instances
 			(project "flash"
 				(path "/b8bc8b60-7428-4d06-95a4-be2e4edd5044"
-					(reference "C23")
+					(reference "C24")
 					(unit 1)
 				)
 			)
@@ -20089,7 +20226,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6dfb6d4b-8eb0-40ac-8103-d81d34bf1b2e")
-		(property "Reference" "#PWR055"
+		(property "Reference" "#PWR049"
 			(at 77.47 194.31 0)
 			(hide yes)
 			(show_name no)
@@ -20150,7 +20287,7 @@
 		(instances
 			(project "flash"
 				(path "/b8bc8b60-7428-4d06-95a4-be2e4edd5044"
-					(reference "#PWR055")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -20737,7 +20874,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "790da0ce-0c77-4ac3-be91-2965a079641d")
-		(property "Reference" "#PWR056"
+		(property "Reference" "#PWR062"
 			(at 312.42 210.82 0)
 			(hide yes)
 			(show_name no)
@@ -20797,7 +20934,7 @@
 		(instances
 			(project "flash"
 				(path "/b8bc8b60-7428-4d06-95a4-be2e4edd5044"
-					(reference "#PWR056")
+					(reference "#PWR062")
 					(unit 1)
 				)
 			)
@@ -21132,7 +21269,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7e452f56-7018-45e6-b2fd-1a0b52b74900")
-		(property "Reference" "#PWR054"
+		(property "Reference" "#PWR061"
 			(at 322.58 208.28 0)
 			(hide yes)
 			(show_name no)
@@ -21193,7 +21330,7 @@
 		(instances
 			(project "flash"
 				(path "/b8bc8b60-7428-4d06-95a4-be2e4edd5044"
-					(reference "#PWR054")
+					(reference "#PWR061")
 					(unit 1)
 				)
 			)
@@ -21210,7 +21347,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7e4c3a00-47f2-4d72-b90a-79313923e8ed")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR011"
 			(at 248.92 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -21270,7 +21407,7 @@
 		(instances
 			(project "flash"
 				(path "/b8bc8b60-7428-4d06-95a4-be2e4edd5044"
-					(reference "#PWR07")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -21278,7 +21415,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 95.25 154.94 0)
+		(at 111.76 153.67 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -21288,8 +21425,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7e876fd9-890f-4348-828e-8ab2f9e48800")
-		(property "Reference" "#PWR045"
-			(at 95.25 161.29 0)
+		(property "Reference" "#PWR042"
+			(at 111.76 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21300,7 +21437,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 95.25 160.02 0)
+			(at 111.76 158.75 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21310,7 +21447,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 95.25 154.94 0)
+			(at 111.76 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21321,7 +21458,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 95.25 154.94 0)
+			(at 111.76 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21332,7 +21469,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 95.25 154.94 0)
+			(at 111.76 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21348,7 +21485,7 @@
 		(instances
 			(project "flash"
 				(path "/b8bc8b60-7428-4d06-95a4-be2e4edd5044"
-					(reference "#PWR045")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -21365,7 +21502,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8463b604-7613-42a3-ba7e-2d03e585dd26")
-		(property "Reference" "#PWR060"
+		(property "Reference" "#PWR055"
 			(at 33.02 205.74 0)
 			(hide yes)
 			(show_name no)
@@ -21425,7 +21562,7 @@
 		(instances
 			(project "flash"
 				(path "/b8bc8b60-7428-4d06-95a4-be2e4edd5044"
-					(reference "#PWR060")
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -21442,7 +21579,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "86f28924-52b7-4fdf-87c4-1f36d3e2cf20")
-		(property "Reference" "#PWR082"
+		(property "Reference" "#PWR069"
 			(at 93.98 237.49 0)
 			(hide yes)
 			(show_name no)
@@ -21502,7 +21639,7 @@
 		(instances
 			(project "flash"
 				(path "/b8bc8b60-7428-4d06-95a4-be2e4edd5044"
-					(reference "#PWR082")
+					(reference "#PWR069")
 					(unit 1)
 				)
 			)
@@ -21510,7 +21647,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 115.57 134.62 0)
+		(at 132.08 133.35 0)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -21521,7 +21658,7 @@
 		(dnp no)
 		(uuid "8b68b9c3-b61a-4111-b1ad-8b2df2f18a49")
 		(property "Reference" "R7"
-			(at 119.888 135.128 90)
+			(at 136.398 133.858 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21531,7 +21668,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 117.856 135.128 90)
+			(at 134.366 133.858 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21541,7 +21678,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 113.792 134.62 90)
+			(at 130.302 133.35 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21552,7 +21689,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 115.57 134.62 0)
+			(at 132.08 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21563,7 +21700,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 115.57 134.62 0)
+			(at 132.08 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21721,7 +21858,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "917dd60a-2671-4bba-943e-91cc68911092")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR07"
 			(at 289.56 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -21781,7 +21918,7 @@
 		(instances
 			(project "flash"
 				(path "/b8bc8b60-7428-4d06-95a4-be2e4edd5044"
-					(reference "#PWR011")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -21875,7 +22012,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "950fe8fe-784a-4e3a-b246-ea61438ff2b4")
-		(property "Reference" "SW6"
+		(property "Reference" "SW4"
 			(at 286.004 242.062 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21939,7 +22076,7 @@
 		(instances
 			(project "flash"
 				(path "/b8bc8b60-7428-4d06-95a4-be2e4edd5044"
-					(reference "SW6")
+					(reference "SW4")
 					(unit 1)
 				)
 			)
@@ -21957,7 +22094,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9856e200-048e-45c5-bde3-294e4b9c143d")
-		(property "Reference" "#PWR058"
+		(property "Reference" "#PWR063"
 			(at 322.58 213.36 0)
 			(hide yes)
 			(show_name no)
@@ -22018,7 +22155,7 @@
 		(instances
 			(project "flash"
 				(path "/b8bc8b60-7428-4d06-95a4-be2e4edd5044"
-					(reference "#PWR058")
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)
@@ -22035,7 +22172,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "990bf533-43c7-43bf-bc7e-e3fdb5439691")
-		(property "Reference" "#PWR059"
+		(property "Reference" "#PWR052"
 			(at 111.76 195.58 0)
 			(hide yes)
 			(show_name no)
@@ -22096,7 +22233,7 @@
 		(instances
 			(project "flash"
 				(path "/b8bc8b60-7428-4d06-95a4-be2e4edd5044"
-					(reference "#PWR059")
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -22114,7 +22251,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9abc456f-bedd-474f-abb0-bf7c25dec5c2")
-		(property "Reference" "#PWR078"
+		(property "Reference" "#PWR080"
 			(at 55.88 255.27 0)
 			(hide yes)
 			(show_name no)
@@ -22174,7 +22311,7 @@
 		(instances
 			(project "flash"
 				(path "/b8bc8b60-7428-4d06-95a4-be2e4edd5044"
-					(reference "#PWR078")
+					(reference "#PWR080")
 					(unit 1)
 				)
 			)
@@ -22268,7 +22405,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9d27ad00-86c9-499c-8d70-f0359ebb63c2")
-		(property "Reference" "#PWR053"
+		(property "Reference" "#PWR060"
 			(at 312.42 205.74 0)
 			(hide yes)
 			(show_name no)
@@ -22328,7 +22465,7 @@
 		(instances
 			(project "flash"
 				(path "/b8bc8b60-7428-4d06-95a4-be2e4edd5044"
-					(reference "#PWR053")
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)
@@ -22346,7 +22483,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9e1fb6cb-27cc-4e77-8322-8d6cf03319a7")
-		(property "Reference" "C29"
+		(property "Reference" "C31"
 			(at 62.23 239.014 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22410,7 +22547,7 @@
 		(instances
 			(project "flash"
 				(path "/b8bc8b60-7428-4d06-95a4-be2e4edd5044"
-					(reference "C29")
+					(reference "C31")
 					(unit 1)
 				)
 			)
@@ -22428,7 +22565,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a09cc9ca-1516-47db-a39f-3061ca548590")
-		(property "Reference" "C11"
+		(property "Reference" "C12"
 			(at 240.792 101.346 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22492,7 +22629,7 @@
 		(instances
 			(project "flash"
 				(path "/b8bc8b60-7428-4d06-95a4-be2e4edd5044"
-					(reference "C11")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -22509,7 +22646,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a108938d-110a-4742-a654-c53447205fe5")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR036"
 			(at 237.49 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -22570,7 +22707,7 @@
 		(instances
 			(project "flash"
 				(path "/b8bc8b60-7428-4d06-95a4-be2e4edd5044"
-					(reference "#PWR034")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -22587,7 +22724,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a1b0a292-cd03-4130-99d5-73fc67f080c2")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR039"
 			(at 271.78 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -22648,7 +22785,7 @@
 		(instances
 			(project "flash"
 				(path "/b8bc8b60-7428-4d06-95a4-be2e4edd5044"
-					(reference "#PWR037")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -22656,84 +22793,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 52.07 135.89 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "a1d96f95-16cb-40b5-9f36-1582007b1cd2")
-		(property "Reference" "#PWR041"
-			(at 52.07 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "3.3V"
-			(at 52.07 130.81 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 52.07 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 52.07 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 52.07 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b10683da-7f9a-461f-87e7-533f628152cb")
-		)
-		(instances
-			(project "flash"
-				(path "/b8bc8b60-7428-4d06-95a4-be2e4edd5044"
-					(reference "#PWR041")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCC")
-		(at 105.41 130.81 0)
+		(at 121.92 129.54 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -22743,7 +22803,7 @@
 		(dnp no)
 		(uuid "a370f2bd-0276-4034-97ab-7be5645be29b")
 		(property "Reference" "#PWR040"
-			(at 105.41 134.62 0)
+			(at 121.92 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22754,7 +22814,7 @@
 			)
 		)
 		(property "Value" "3.3V"
-			(at 105.41 125.73 0)
+			(at 121.92 124.46 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22764,7 +22824,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 105.41 130.81 0)
+			(at 121.92 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22775,7 +22835,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 105.41 130.81 0)
+			(at 121.92 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22786,7 +22846,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 105.41 130.81 0)
+			(at 121.92 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22820,7 +22880,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a3e23064-5483-486c-be1a-def224a3cc95")
-		(property "Reference" "C10"
+		(property "Reference" "C11"
 			(at 212.852 101.346 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22884,92 +22944,7 @@
 		(instances
 			(project "flash"
 				(path "/b8bc8b60-7428-4d06-95a4-be2e4edd5044"
-					(reference "C10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Oscillator:XO32")
-		(at 52.07 143.51 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "a3f32ad3-f072-4b9a-a109-14c26951f4f3")
-		(property "Reference" "Y1"
-			(at 58.166 136.906 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SCTF SX3M12.000M20F30TNN"
-			(at 47.498 158.496 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm_HandSoldering"
-			(at 69.85 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C2901561.pdf?spm=wm.sxq.inf.ggs___wm.ddx.13.xqy&lcsc_vid=EQBbBF1UEVBeBlZfRQcNU1dQFQcPA1EFElVZA1FST1kxVlNeRlZYU1ZVR1FeUDsOAxUeFF5JWBEPFBcWGBMaSQgFBAJABAsLWA%3D%3D"
-			(at 49.53 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "HCMOS Clock Oscillator"
-			(at 52.07 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "c5101d50-4c02-4f9e-85e6-3183b2848a76")
-		)
-		(pin "4"
-			(uuid "ce4fd9d6-b8b0-4fbd-a904-7c47180a74e3")
-		)
-		(pin "1"
-			(uuid "bfb6b858-599c-452f-a84e-27babd8a0d6d")
-		)
-		(pin "2"
-			(uuid "e8826950-a528-4b69-8b1b-71f1a8745cf2")
-		)
-		(instances
-			(project "flash"
-				(path "/b8bc8b60-7428-4d06-95a4-be2e4edd5044"
-					(reference "Y1")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -22986,7 +22961,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a5a23ff5-13f7-48e1-9396-ae7e946d63cc")
-		(property "Reference" "#PWR081"
+		(property "Reference" "#PWR066"
 			(at 93.98 223.52 0)
 			(hide yes)
 			(show_name no)
@@ -23046,7 +23021,7 @@
 		(instances
 			(project "flash"
 				(path "/b8bc8b60-7428-4d06-95a4-be2e4edd5044"
-					(reference "#PWR081")
+					(reference "#PWR066")
 					(unit 1)
 				)
 			)
@@ -23356,8 +23331,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 127 146.05 90)
+		(lib_id "Device:C_Small")
+		(at 39.37 144.78 0)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -23366,29 +23341,31 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "abc61bfa-7db4-4c2a-ae5f-8d5c17629cab")
-		(property "Reference" "R9"
-			(at 128.524 148.844 90)
+		(uuid "aa4416e7-383b-4988-a0ef-8669dc2eed67")
+		(property "Reference" "C14"
+			(at 36.576 147.066 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Value" "2k"
-			(at 124.46 148.844 90)
+		(property "Value" "10pF"
+			(at 37.338 144.526 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 127 144.272 90)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 39.37 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23399,7 +23376,87 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 127 146.05 0)
+			(at 39.37 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 39.37 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "8f034db7-e743-43da-bac5-d8ebf80b8f3e")
+		)
+		(pin "1"
+			(uuid "82dfbf27-a432-4cc2-aada-f602bb3ad579")
+		)
+		(instances
+			(project "flash"
+				(path "/b8bc8b60-7428-4d06-95a4-be2e4edd5044"
+					(reference "C14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 143.51 144.78 90)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "abc61bfa-7db4-4c2a-ae5f-8d5c17629cab")
+		(property "Reference" "R9"
+			(at 145.034 147.574 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2k"
+			(at 140.97 147.574 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 143.51 143.002 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 143.51 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23410,7 +23467,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 127 146.05 0)
+			(at 143.51 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23447,7 +23504,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ae1738f9-d53b-4c09-93bf-660eb1256aae")
-		(property "Reference" "#PWR065"
+		(property "Reference" "#PWR064"
 			(at 57.15 220.98 0)
 			(hide yes)
 			(show_name no)
@@ -23507,7 +23564,7 @@
 		(instances
 			(project "flash"
 				(path "/b8bc8b60-7428-4d06-95a4-be2e4edd5044"
-					(reference "#PWR065")
+					(reference "#PWR064")
 					(unit 1)
 				)
 			)
@@ -23524,7 +23581,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b0c7fd81-ed15-408e-b81f-625401dcbe10")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR05"
 			(at 284.48 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -23584,7 +23641,7 @@
 		(instances
 			(project "flash"
 				(path "/b8bc8b60-7428-4d06-95a4-be2e4edd5044"
-					(reference "#PWR09")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -23602,7 +23659,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b1fa023f-8eb8-4881-8587-c8c12e573a81")
-		(property "Reference" "C9"
+		(property "Reference" "C10"
 			(at 188.722 101.346 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23666,7 +23723,7 @@
 		(instances
 			(project "flash"
 				(path "/b8bc8b60-7428-4d06-95a4-be2e4edd5044"
-					(reference "C9")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -23683,7 +23740,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b715bdba-db67-483a-841c-424db57ce9fa")
-		(property "Reference" "#PWR052"
+		(property "Reference" "#PWR048"
 			(at 226.06 187.96 0)
 			(hide yes)
 			(show_name no)
@@ -23743,7 +23800,7 @@
 		(instances
 			(project "flash"
 				(path "/b8bc8b60-7428-4d06-95a4-be2e4edd5044"
-					(reference "#PWR052")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -23931,7 +23988,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bf0deaf0-8e7b-49bb-98b9-7c1c26c07d28")
-		(property "Reference" "#PWR074"
+		(property "Reference" "#PWR072"
 			(at 48.26 240.03 0)
 			(hide yes)
 			(show_name no)
@@ -23991,7 +24048,7 @@
 		(instances
 			(project "flash"
 				(path "/b8bc8b60-7428-4d06-95a4-be2e4edd5044"
-					(reference "#PWR074")
+					(reference "#PWR072")
 					(unit 1)
 				)
 			)
@@ -24366,7 +24423,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c2d5f0b6-e318-424a-a302-0a80b5fee512")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR037"
 			(at 251.46 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -24426,7 +24483,7 @@
 		(instances
 			(project "flash"
 				(path "/b8bc8b60-7428-4d06-95a4-be2e4edd5044"
-					(reference "#PWR035")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -24604,7 +24661,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c8fd5fdb-60c4-42e5-a7f1-761a17bea81d")
-		(property "Reference" "#PWR070"
+		(property "Reference" "#PWR076"
 			(at 185.42 245.11 0)
 			(hide yes)
 			(show_name no)
@@ -24664,7 +24721,7 @@
 		(instances
 			(project "flash"
 				(path "/b8bc8b60-7428-4d06-95a4-be2e4edd5044"
-					(reference "#PWR070")
+					(reference "#PWR076")
 					(unit 1)
 				)
 			)
@@ -24682,7 +24739,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c9a03e5e-3218-452f-a24d-da79f422135f")
-		(property "Reference" "R13"
+		(property "Reference" "R14"
 			(at 204.978 245.11 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24744,7 +24801,7 @@
 		(instances
 			(project "flash"
 				(path "/b8bc8b60-7428-4d06-95a4-be2e4edd5044"
-					(reference "R13")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -24883,7 +24940,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cb0c0794-dbbc-4c75-9b15-b217fb22f2f1")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR04"
 			(at 281.94 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -24943,7 +25000,7 @@
 		(instances
 			(project "flash"
 				(path "/b8bc8b60-7428-4d06-95a4-be2e4edd5044"
-					(reference "#PWR08")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -24960,7 +25017,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cb4efdb9-30d6-47de-9568-d5e9b699aa9a")
-		(property "Reference" "#PWR073"
+		(property "Reference" "#PWR071"
 			(at 31.75 240.03 0)
 			(hide yes)
 			(show_name no)
@@ -25020,7 +25077,7 @@
 		(instances
 			(project "flash"
 				(path "/b8bc8b60-7428-4d06-95a4-be2e4edd5044"
-					(reference "#PWR073")
+					(reference "#PWR071")
 					(unit 1)
 				)
 			)
@@ -25110,7 +25167,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 123.19 134.62 0)
+		(at 139.7 133.35 0)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -25121,7 +25178,7 @@
 		(dnp no)
 		(uuid "cd46e041-4d5e-4072-b137-2ed4f7f1adb5")
 		(property "Reference" "R8"
-			(at 127 135.128 90)
+			(at 143.51 133.858 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25131,7 +25188,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 125.222 134.874 90)
+			(at 141.732 133.604 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25141,7 +25198,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 121.412 134.62 90)
+			(at 137.922 133.35 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25152,7 +25209,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 123.19 134.62 0)
+			(at 139.7 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25163,7 +25220,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 123.19 134.62 0)
+			(at 139.7 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25199,7 +25256,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ce86ac6f-3b62-41af-b002-cf3f96b12b1a")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR032"
 			(at 185.42 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -25260,7 +25317,7 @@
 		(instances
 			(project "flash"
 				(path "/b8bc8b60-7428-4d06-95a4-be2e4edd5044"
-					(reference "#PWR030")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -25431,7 +25488,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d0c1f043-eaf3-41cc-8d7c-73ba68684c4f")
-		(property "Reference" "C13"
+		(property "Reference" "C9"
 			(at 35.306 96.52 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25495,7 +25552,7 @@
 		(instances
 			(project "flash"
 				(path "/b8bc8b60-7428-4d06-95a4-be2e4edd5044"
-					(reference "C13")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -25512,7 +25569,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d2032391-f6cf-4a06-b62b-35283039c418")
-		(property "Reference" "R14"
+		(property "Reference" "R10"
 			(at 256.794 232.664 90)
 			(hide yes)
 			(show_name no)
@@ -25577,7 +25634,7 @@
 		(instances
 			(project "flash"
 				(path "/b8bc8b60-7428-4d06-95a4-be2e4edd5044"
-					(reference "R14")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -25594,7 +25651,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d6f855a8-444e-4130-acd9-3167017c4d88")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR06"
 			(at 287.02 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -25654,7 +25711,7 @@
 		(instances
 			(project "flash"
 				(path "/b8bc8b60-7428-4d06-95a4-be2e4edd5044"
-					(reference "#PWR010")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -25672,7 +25729,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d80f9bcd-d7d8-4714-917d-d009176d19c2")
-		(property "Reference" "C26"
+		(property "Reference" "C28"
 			(at 124.46 231.394 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25736,7 +25793,7 @@
 		(instances
 			(project "flash"
 				(path "/b8bc8b60-7428-4d06-95a4-be2e4edd5044"
-					(reference "C26")
+					(reference "C28")
 					(unit 1)
 				)
 			)
@@ -25754,7 +25811,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d9b7f6be-d8b0-468e-af52-d69701e9c24e")
-		(property "Reference" "R10"
+		(property "Reference" "R11"
 			(at 178.054 244.856 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25816,7 +25873,7 @@
 		(instances
 			(project "flash"
 				(path "/b8bc8b60-7428-4d06-95a4-be2e4edd5044"
-					(reference "R10")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -25833,7 +25890,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "dcbbe3fb-1cc2-4e64-b37f-3172ff3f6561")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR030"
 			(at 306.07 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -25893,7 +25950,7 @@
 		(instances
 			(project "flash"
 				(path "/b8bc8b60-7428-4d06-95a4-be2e4edd5044"
-					(reference "#PWR038")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -25910,7 +25967,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "dcfd0020-f5ae-47e8-9cca-c12f5f996e28")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR053"
 			(at 203.2 193.04 0)
 			(hide yes)
 			(show_name no)
@@ -25971,7 +26028,7 @@
 		(instances
 			(project "flash"
 				(path "/b8bc8b60-7428-4d06-95a4-be2e4edd5044"
-					(reference "#PWR047")
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -26255,7 +26312,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "df8afe72-50b6-4466-8eba-882381ac08a3")
-		(property "Reference" "#PWR063"
+		(property "Reference" "#PWR058"
 			(at 93.98 209.55 0)
 			(hide yes)
 			(show_name no)
@@ -26315,7 +26372,7 @@
 		(instances
 			(project "flash"
 				(path "/b8bc8b60-7428-4d06-95a4-be2e4edd5044"
-					(reference "#PWR063")
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -26333,7 +26390,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e1d4ea16-1663-4839-85f3-db2c90112b01")
-		(property "Reference" "#PWR062"
+		(property "Reference" "#PWR057"
 			(at 77.47 208.28 0)
 			(hide yes)
 			(show_name no)
@@ -26393,7 +26450,7 @@
 		(instances
 			(project "flash"
 				(path "/b8bc8b60-7428-4d06-95a4-be2e4edd5044"
-					(reference "#PWR062")
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -26411,7 +26468,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e1f628c3-e858-4e23-9e18-ae5e4548b0c7")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR044"
 			(at 254 166.37 0)
 			(hide yes)
 			(show_name no)
@@ -26471,7 +26528,7 @@
 		(instances
 			(project "flash"
 				(path "/b8bc8b60-7428-4d06-95a4-be2e4edd5044"
-					(reference "#PWR043")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -26634,7 +26691,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e55ed08d-2f82-48f8-aae2-0bcdef19ec4f")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR034"
 			(at 204.47 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -26694,7 +26751,7 @@
 		(instances
 			(project "flash"
 				(path "/b8bc8b60-7428-4d06-95a4-be2e4edd5044"
-					(reference "#PWR032")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -26711,7 +26768,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e66f5bbd-4a72-4c42-9191-474083e05534")
-		(property "Reference" "#PWR050"
+		(property "Reference" "#PWR046"
 			(at 193.04 185.42 0)
 			(hide yes)
 			(show_name no)
@@ -26771,7 +26828,7 @@
 		(instances
 			(project "flash"
 				(path "/b8bc8b60-7428-4d06-95a4-be2e4edd5044"
-					(reference "#PWR050")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -26788,7 +26845,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e83d7f97-9287-4e8d-9dd2-884dfacab649")
-		(property "Reference" "#PWR051"
+		(property "Reference" "#PWR054"
 			(at 236.22 193.04 0)
 			(hide yes)
 			(show_name no)
@@ -26849,7 +26906,7 @@
 		(instances
 			(project "flash"
 				(path "/b8bc8b60-7428-4d06-95a4-be2e4edd5044"
-					(reference "#PWR051")
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -27115,6 +27172,114 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:Crystal_GND24")
+		(at 48.26 140.97 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f23ad8d4-df03-4c7f-a9b0-16ec585b7b04")
+		(property "Reference" "Y1"
+			(at 48.26 132.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Crystal_GND24"
+			(at 48.26 134.62 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm_HandSoldering"
+			(at 48.26 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 48.26 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Four pin crystal, GND on pins 2 and 4"
+			(at 48.26 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property private "KLC_S3.3" "The rectangle is not a symbol body but a graphical element"
+			(at 48.26 153.67 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property private "KLC_S4.1" "Some pins are on 50mil grid to make the symbol small"
+			(at 48.26 156.21 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "c919e7b8-874b-4564-b1da-26bfbf18f96b")
+		)
+		(pin "4"
+			(uuid "92b768ad-f77a-43fe-843a-8875af639dcb")
+		)
+		(pin "2"
+			(uuid "ef586cf6-b350-4868-a590-f4bfe4c47b2f")
+		)
+		(pin "1"
+			(uuid "c737efca-ae24-413f-9db0-7c3dce101ce4")
+		)
+		(instances
+			(project "flash"
+				(path "/b8bc8b60-7428-4d06-95a4-be2e4edd5044"
+					(reference "Y1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 109.22 232.41 0)
 		(mirror x)
@@ -27126,7 +27291,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f24f37f2-ff93-469d-b429-161226cc6b7e")
-		(property "Reference" "C25"
+		(property "Reference" "C27"
 			(at 115.57 231.394 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27190,7 +27355,7 @@
 		(instances
 			(project "flash"
 				(path "/b8bc8b60-7428-4d06-95a4-be2e4edd5044"
-					(reference "C25")
+					(reference "C27")
 					(unit 1)
 				)
 			)
@@ -27353,7 +27518,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f4df5603-24cd-4185-85e7-513f334561d0")
-		(property "Reference" "C17"
+		(property "Reference" "C21"
 			(at 69.596 195.58 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27417,7 +27582,7 @@
 		(instances
 			(project "flash"
 				(path "/b8bc8b60-7428-4d06-95a4-be2e4edd5044"
-					(reference "C17")
+					(reference "C21")
 					(unit 1)
 				)
 			)
@@ -27435,7 +27600,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f6ddcf5f-f004-4d2b-8b61-f2ca2a33fe1d")
-		(property "Reference" "R11"
+		(property "Reference" "R12"
 			(at 187.706 244.856 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27497,7 +27662,7 @@
 		(instances
 			(project "flash"
 				(path "/b8bc8b60-7428-4d06-95a4-be2e4edd5044"
-					(reference "R11")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -27874,7 +28039,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fc2742de-05b7-40cb-9b81-dc5ca0c383a0")
-		(property "Reference" "#PWR072"
+		(property "Reference" "#PWR078"
 			(at 200.66 245.11 0)
 			(hide yes)
 			(show_name no)
@@ -27934,7 +28099,7 @@
 		(instances
 			(project "flash"
 				(path "/b8bc8b60-7428-4d06-95a4-be2e4edd5044"
-					(reference "#PWR072")
+					(reference "#PWR078")
 					(unit 1)
 				)
 			)
